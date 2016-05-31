@@ -1,15 +1,14 @@
 import React from "react";
+import TextEdit from '../TextEdit/TextEdit.js';
 
 class ContactCard extends React.Component {
   render() {
 
+      let textEdits = this.props.contactData.map((o, i) => {
+      });
+
       return (
         <div className="ContactCard">
-          <p>{this.props.name}</p>
-          <p>{this.props.username}</p>
-          <p>{this.props.email}</p>
-          <p>{this.props.mobile}</p>
-          <p>{this.props.location}</p>
         </div>
       )
   }
