@@ -1,7 +1,7 @@
-import AppDispatcher from "../dispatchers/appDispatcher.js";
+import AppDispatcher from "../dispatchers/AppDispatcher.js";
 import { EventEmitter } from "events";
-import AppConstants from "../constants/appConstants.js";
-import AppApi from "../api/appApi.js";
+import AppConstants from "../constants/AppConstants.js";
+import AppApi from "../api/AppApi.js";
 import assign from "object-assign";
 import _ from "lodash";
 

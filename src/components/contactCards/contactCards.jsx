@@ -1,5 +1,5 @@
 import React from "react";
-import ContactCard from '../contactCard/contactCard.jsx';
+import ContactCard from '../ContactCard/ContactCard.jsx';
 
 class ContactCards extends React.Component {
   render() {

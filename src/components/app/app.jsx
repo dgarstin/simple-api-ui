@@ -1,8 +1,8 @@
 import React from "react";
-import AppStore from '../../stores/appStore.js';
-import ServerActions from '../../actions/serverActions.js';
-import AppActions from '../../actions/appActions.js';
-import MainContent from '../mainContent/mainContent.jsx';
+import AppStore from '../../stores/AppStore.js';
+import ServerActions from '../../actions/ServerActions.js';
+import AppActions from '../../actions/AppActions.js';
+import MainContent from '../mainContent/MainContent.jsx';
 
 export default class App extends React.Component {
   constructor(props) {
